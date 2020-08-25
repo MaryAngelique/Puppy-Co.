@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar */
+nav {
+  background: #ff861c;
+  color: #000000;
+  overflow: auto;
+}
+
+nav a {
+  color: #000000;
+}
+
+nav h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul li a:hover,
+nav ul li a.current{
+  background: #e07840;
+  color: #333;
+}
+/* End */
+
+/* Welcome */
+h2 span {
+  color: coral;
+  font-size: 35px; 
+}
+
+/* Welcome Pargraph */
+#welcome .info {
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 25px;
+} 
+
+/* Welcome to */
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/* End */
+
+/*  Puppy Co */
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-family: 'Quando', serif;
+}
+/* End */
+
+/* Welcome DIV */
+#welcome {
+  background: url('./backgrounds/paws.jpg') no-repeat center center/cover;
+}
+
+#home-info .text-primary {
+  font-size: 30px;
+}
+
+h3 .features {
+  font-size: 35px;
+}
+
+.container {
+  margin: auto;
+  width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+/* End */
+
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align:center;
+}
+  
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Testimonies */
+#testimonials {
+  height: 925px;
+  background: url('./backgrounds/cartoon.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  color: #e07840;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+/* End */
+
+.welcome  {
+  background: url('backgrounds/paws.jpg');
+}
+
+li{
+  display:inline;
+  list-style-type:none;
+}
+
+img {
+  display: flex;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 160px;
+
+}
+
+p .info {
+  font-size: 20px;
+}
+
+h3 #contact {
+  font-size: 30px;
+}
+
+/* Footer */
+#main-footer {
+  font-size: 20px;
+  text-align: center;
+  background: coral;
+  color: #ffffff;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: coral;
+}
+
+.lead {
+  font-size: 20px;
+}
+/* End */
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  align-items: center;
+  font-size: 18px;
+  margin-left: 650px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  background: #333;
+  border: none;
+  cursor: pointer;
+  padding-top: 13px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+}
+
+.btn-light {
+  background: lightgray;
+  text-align: center;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+.bg-dark {
+  background: lightgray;
+  color: #fff;
+}
+
+.bg-light {
+  background: lightcoral;
+  color: #333;
+}
+
+.bg-primary {
+  background: lightcoral;
+  color: #333;
+}
+/* End */
+
+.clr {
+  clear: both;
+}
+
+/* Contact */
+#contact-form .info {
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-family: 'Neuton', serif;
+  margin-left: 350px;
+}
+
+#contact-form .form-group {
+  height: 60px;
+  margin-left: 450px;
+  font-size: 20px;
+}
+
+#contact-form,
+#contact-info {
+  background: url('./backgrounds/pupbg.jpg') no-repeat center center/cover;
+  height: 500px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 30%;
+  height: 10px;
+  padding: 20px;
+  border: 1px solid;
+  margin-left: 100px;
+}
+
+#contact-form textarea{
+  height: 50px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+}
+/* End */
+
+/* Adopt */
+#adopt .adopt{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+#adopt {
+  background: url('./backgrounds/bg3.jpg') no-repeat center center/cover;
+}
+
+section p .adopt {
+  background: lightgray;
+  text-align: center;
+}
+/* End */
+
+/* Store */
+
+
+#food-treats ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#food-treats li {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#collar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#collar li {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#cage ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#collar li {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#shop {
+  background: lightsalmon;
+}
+/* End */
